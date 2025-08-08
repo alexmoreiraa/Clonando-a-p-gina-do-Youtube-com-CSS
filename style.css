@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: "Roboto",sans-serif;
+}
+header {
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0px 10px 0px;
+    align-items: center;
+}
+.menu{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu img {
+    width: 100px;
+    height: 20px; 
+}
+
+.fa-solid {
+    color: black;
+    font-size: 1rem;
+}
+
+.container-input-text input {
+
+    width: 300px;
+    height: 30px;
+    border: solid 1px lightgrey;
+    border-radius: 20px;
+}
+
+.container-input-text a i {
+    font-size: 1.25rem;
+    color: #000000;
+    color: lightslategray;
+    margin-left: 5px;   
+}
+
+.navigation ul {
+    display: flex;
+    width: 180px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation ul li a i {
+ color: #000000;
+}
+
+.img-profile {
+    width: 30px;
+    height: 30px;
+}
+
+.container-principal {
+    max-width: 100vw;
+    display: flex;
+    flex-flow: row ;
+    margin: 0 0 0 10px;
+    gap: 30px;
+}
+
+.container-video {
+    width: 60vw;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.container-video iframe {
+    width: 60vw;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.container-video-youtube{
+    width: auto;
+    height: auto;
+}
+
+.container-video-youtube h2 {
+    font-size: 1.125rem;
+    margin-top: 10px;
+}
+
+.video-actions{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channel-infos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dio-inscritos h3 {
+font-weight: 600;
+font-size: 0.8rem;
+
+}
+
+.dio-inscritos p {
+font-size: 0.8rem;
+font-weight: 300;
+}
+
+.button-insreva-se {
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.actions-info a {
+    text-decoration: none;
+}
+
+.actions-info a i {
+    margin: 0px 5px;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.actions-info a span {
+    color: #000000;
+    text-decoration: none;
+}
+
+.txt-visualizacoes {
+    margin-top:10px ;
+    padding: 20px 0;
+}
+
+.txt-visualizacoes p {
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.sidebar {
+    width: 800px;
+    height:700px ;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards .infos-txt p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: rgb(90, 90, 90);
+}
+
+.cards .infos-txt h4 {
+    font-size: 1rem;
+}
+
+
+
